@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "آمیرزا",
+    "slug": "amirza-persian-word-game",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "amirza",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#2D115C"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.amirza"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#4C1D95"
+      },
+      "package": "com.example.amirza",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "forcesRTL": true
+    },
+    "plugins": [
+      "expo-audio"
+    ]
+  }
+}
